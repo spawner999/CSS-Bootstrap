@@ -1,0 +1,109 @@
+body{
+  margin-top: 87px;
+  background-image: url("http://bagdadmovies.com/images/bagdad_movies/bg.jpg");
+  background-size: cover;
+
+}
+.navbar {
+  background-color: #201208;
+}
+
+.navbar-toggle {
+  border: none;
+  margin: 27.5px 0;
+  padding-bottom: 20px;
+
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #201208;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar  {
+  background-color: #E19851;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #E19851;
+}
+
+.navbar-header img {
+  margin: 15px 5px;
+}
+
+button {
+  background-color: #DB7E25;
+  margin: 10px 9.5px;
+
+
+}
+.tickets, .showtimes{
+  height: 262px;
+}
+
+.white {
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.hail-cesar{
+  width: 95px;
+  height: 151px;
+  background-image: url("http://bagdadmovies.com/system/uploads/MadborgAssets/hailcaesarposter.jpg");
+  background-position: center;
+  background-size: 125%;
+
+}
+
+.col-sm-11 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #DB7E25;
+
+}
+
+.cloverfield {
+  width: 95px;
+  height: 151px;
+  background-image: url("http://cdn.movieweb.com/img.teasers.posters/FIzltnE8KTJVDD_3_a.jpg");
+  background-position: center;
+  background-size: 125%;
+}
+
+.batman {
+  width: 95px;
+  height: 151px;
+  margin-right: 25px;
+  background-image: url("http://bagdadmovies.com/system/uploads/assets/Movies/Batman-V-Superman-Batman-teaser-poster.jpg");
+  background-position: center;
+  background-size: 125%;
+}
+
+.left {
+ height: 90vh;
+ background-image: url("http://bagdadmovies.com/images/bagdad_movies/marquee.png");
+ background-repeat: no-repeat;
+}
+
+footer {
+  color: white;
+  border-top: 1px solid white;
+  margin: 10 0;
+  padding-top: 20px;
+  background-color: #DB7E25;
+}
+
+.col-xs-4 {
+  margin: 40px 0;
+}
+
+
+@media screen and (min-width:768px) and (max-width: 990px) {
+  body{
+    margin-top: 137px;
+  }
+}
